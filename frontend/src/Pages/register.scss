@@ -38,18 +38,17 @@
         p{
             margin-top: 4%;
             label{
-                text-transform: capitalize;
                 text-align: left;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: #85586f;
             }
             input{
-                border-style: dashed;
+                border-style: dotted;
                 border-radius: 20px;
                 border-color: #ac7d88;
                 background-color: white;
-                padding-left: 60px;
-                padding-top: 5px;
+                width:fit-content;
+                padding: 3px;
             }
             span{
                 text-align: center;
@@ -80,8 +79,9 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bolder;
         margin-top: 0;
-        p1{
-            color: #85586f;
+        a{
+            color:#85586f;
+            text-decoration: underline;
         }
     }
 }
