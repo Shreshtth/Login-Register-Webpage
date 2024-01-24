@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import '../App.css'
 
-export default function SignUpPage() {
+const RegisterPage = () => {
 
     return (
         <div className="text-center m-5-auto">
@@ -36,3 +36,5 @@ export default function SignUpPage() {
     )
 
 }
+
+export default RegisterPage

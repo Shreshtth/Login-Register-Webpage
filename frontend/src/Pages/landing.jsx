@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import '../App.css'
 import BackgroundImage from './bg.png'
 
-export default function LandingPage() {
+const LandingPage = () => {
     return (
         <header style={ HeaderStyle }>
             <h1 className="main-title text-center">login / register page</h1>
@@ -29,3 +29,5 @@ const HeaderStyle = {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover"
 }
+
+export default LandingPage

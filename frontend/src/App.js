@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import LandingPage from './Pages/landing'
@@ -9,16 +9,18 @@ import HomePage from './Pages/home'
 
 import './App.css'
 
-export default function App() {
+function App() {
     return (
         <BrowserRouter>
                 <Routes>
                     <Route path="/" element={ <LandingPage/> } />
-                    <Route path="login" element={ <LoginPage/> } />
-                    <Route path="register" element={ <RegisterPage/> } />
-                    <Route path="forget-password" element={ <ForgetPasswordPage/> } />
-                    <Route path="home" element={ <HomePage/> } />
+                    <Route path="/login" element={ <LoginPage/> } />
+                    <Route path="/register" element={ <RegisterPage/> } />
+                    <Route path="/forget-password" element={ <ForgetPasswordPage/> } />
+                    <Route path="/home" element={ <HomePage/> } />
                 </Routes>
         </BrowserRouter>
     )
 }
+
+export default App

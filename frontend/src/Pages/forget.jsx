@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import '../App.css'
 
-export default function ForgetPasswordPage() {
+const ForgetPasswordPage = () => {
     return (
         <div className="text-center m-5-auto">
             <h2>Reset your password</h2>
@@ -24,3 +24,5 @@ export default function ForgetPasswordPage() {
         </div>
     )
 }
+
+export default ForgetPasswordPage
