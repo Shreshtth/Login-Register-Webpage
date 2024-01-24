@@ -1,33 +1,25 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import '../App.css'
-import BackgroundImage from './bg.png'
+import './landing.scss'
 
 const LandingPage = () => {
     return (
-        <header style={ HeaderStyle }>
-            <h1 className="main-title text-center">login / register page</h1>
-            <p className="main-para text-center">join us now and don't waste time</p>
-            <div className="buttons text-center">
+        <div className="mainpage">
+            <h1 className="heading">Welcome.</h1>
+            <p className="text1">Already a user? Log in.</p> 
+            <p className="text2">New around here? Register.</p>
+            <div className="buttons">
                 <Link to="/login">
-                    <button className="primary-button">log in</button>
+                    <button className="lgbtn"><span>LOGIN</span></button>
                 </Link>
                 <Link to="/register">
-                    <button className="primary-button" id="reg_btn"><span>register </span></button>
+                    <button className="regbtn"><span>REGISTER</span></button>
                 </Link>
             </div>
-        </header>
+        </div>
     )
 }
 
-const HeaderStyle = {
-    width: "100%",
-    height: "100vh",
-    background: `url(${BackgroundImage})`,
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover"
-}
 
 export default LandingPage
