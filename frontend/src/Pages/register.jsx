@@ -13,11 +13,11 @@ const RegisterPage = () => {
                 <form action="/home">
                     <p>
                         <label>Username</label><br/>
-                        <input type="text" name="first_name" required />
+                        <input type="text" name="Name" required />
                     </p>
                     <p>
                         <label>Email Address</label><br/>
-                        <input type="email" name="email" required />
+                        <input type="email" name="Email" required />
                     </p>
                     <p>
                         <label>Password</label><br/>

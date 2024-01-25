@@ -1,0 +1,24 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    position: relative;
+    padding: 30px;
+    width: 100%;
+    max-width: 700px;
+    background-color: #fdf0d1;
+    .clsbtn{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+}

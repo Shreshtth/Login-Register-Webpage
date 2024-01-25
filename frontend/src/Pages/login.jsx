@@ -11,7 +11,7 @@ const LoginPage = () => {
             <form action="/home">
                 <p>
                     <label>Username or Email</label><br/>
-                    <input type="text" name="first_name" required />
+                    <input type="text" name="Name/Email" required />
                 </p>
                 <p>
                     <label>Password</label>
